@@ -73,7 +73,7 @@ const Hero = () => {
 
           {/* Trust line */}
           <p className="text-body-sm text-slate font-medium opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            For small to midsize businesses.
+            Salesforce + AI/Agentforce consulting for small to midsize businesses.
           </p>
         </div>
       </div>
