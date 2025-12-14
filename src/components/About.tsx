@@ -2,13 +2,26 @@ const About = () => {
   return (
     <section className="section-padding bg-secondary/40">
       <div className="container-narrow">
-        <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+        <div className="text-center mb-12 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <h2 className="font-display text-display-sm md:text-display-md font-bold text-foreground mb-4">
             Who we are
           </h2>
+          <p className="text-body text-muted-foreground max-w-2xl mx-auto">
+            Parats Consulting helps growing teams implement Salesforce and practical AI—cleanly, safely, and with measurable results.
+          </p>
         </div>
 
         <div className="max-w-4xl mx-auto opacity-0 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          {/* Leadership intro */}
+          <div className="text-center mb-8">
+            <p className="text-body font-medium text-foreground">
+              Led by Edward Perez and Ashley Perez.
+            </p>
+            <p className="text-body-sm text-muted-foreground mt-1">
+              Our team delivers consistent, documented, high-quality implementations end to end.
+            </p>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-8">
             {/* Edward */}
             <div className="p-6 md:p-8 rounded-2xl bg-card border border-border/50 shadow-card">
@@ -21,7 +34,7 @@ const About = () => {
                 </h3>
               </div>
               <p className="text-body-sm text-muted-foreground leading-relaxed">
-                Edward is a University of Florida finance graduate who started his career in Lockheed Martin's leadership development program. He spent a decade working in Fortune 150 environments before serving in ministry—where he developed a people-first approach grounded in clarity and purpose. Today, he focuses on Salesforce and AI/Agentforce consulting, helping teams build systems that actually work.
+                Edward leads Salesforce and AI/Agentforce delivery for small to midsize businesses. He focuses on building systems that reduce manual work, improve visibility, and help teams close deals faster. Hands-on execution with measurable outcomes.
               </p>
             </div>
 
@@ -36,16 +49,16 @@ const About = () => {
                 </h3>
               </div>
               <p className="text-body-sm text-muted-foreground leading-relaxed">
-                Ashley began her career in turnaround consulting, helping small companies transform their operations. She was later recruited by FedEx, and eventually launched ministry-focused work in teaching and mentoring. Her strengths are process improvement, attention to quality, and making systems actually work for the people who use them.
+                Ashley focuses on operations, process improvement, and client communication. She ensures projects stay organized, decisions are documented, and deliverables meet high standards. Quality and clarity in every engagement.
               </p>
             </div>
           </div>
 
-          {/* Summary cards */}
+          {/* Credibility + quality */}
           <div className="space-y-4">
             <div className="p-6 rounded-xl bg-card border border-primary/10 shadow-card">
               <p className="text-body text-foreground font-medium text-center">
-                Parats Consulting combines strategy and hands-on implementation to help growing teams build systems that actually work.
+                Salesforce-certified team. Full credential list available upon request.
               </p>
             </div>
 
