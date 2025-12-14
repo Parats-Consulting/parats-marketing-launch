@@ -30,40 +30,45 @@ const HowWeWork = () => {
   return (
     <section className="section-padding bg-background">
       <div className="container-narrow">
-        <div className="text-center mb-14 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+          <h2 className="font-display text-display-sm md:text-display-md font-bold text-foreground mb-4">
             How we work
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl mx-auto">
+          <p className="text-body-lg text-muted-foreground max-w-xl mx-auto">
             A clear, collaborative process from start to finish.
           </p>
         </div>
 
-        <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-[27px] top-8 bottom-8 w-px bg-border hidden md:block" />
+        <div className="relative max-w-3xl mx-auto">
+          {/* Timeline line */}
+          <div className="absolute left-6 md:left-8 top-8 bottom-8 w-px bg-gradient-to-b from-primary/30 via-primary/20 to-transparent" />
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             {steps.map((item, index) => (
               <div
                 key={index}
-                className="flex gap-6 opacity-0 animate-fade-in-up"
+                className="relative flex gap-5 md:gap-8 opacity-0 animate-fade-in-up"
                 style={{ animationDelay: `${0.15 + index * 0.1}s` }}
               >
+                {/* Step indicator */}
                 <div className="flex-shrink-0 relative z-10">
-                  <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-soft">
-                    <span className="text-primary-foreground font-display font-bold text-sm">
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-cta flex items-center justify-center shadow-md">
+                    <span className="text-primary-foreground font-display font-bold text-sm md:text-base">
                       {item.step}
                     </span>
                   </div>
                 </div>
-                <div className="pt-3">
-                  <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {item.description}
-                  </p>
+
+                {/* Content card */}
+                <div className="flex-1 pb-6">
+                  <div className="p-5 md:p-6 rounded-xl bg-card border border-border/50 shadow-card hover:shadow-card-hover transition-shadow">
+                    <h3 className="font-display text-lg md:text-xl font-semibold text-foreground mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-body-sm text-muted-foreground">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
