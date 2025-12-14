@@ -3,28 +3,28 @@ import { Database, Bot, Zap, Users, BarChart3 } from "lucide-react";
 const services = [
   {
     icon: Database,
-    title: "Salesforce Foundation & RevOps Buildout",
-    description: "Set up Salesforce Sales Cloud to capture leads, track deals, and report on your pipeline—built for how your team actually works.",
+    title: "Salesforce Foundation & Sales Operations Buildout",
+    description: "Set up Salesforce to capture leads, track deals, and report on your pipeline—configured for how your team actually sells.",
   },
   {
     icon: Bot,
     title: "AI & Agentforce Enablement",
-    description: "Introduce practical AI tools like Einstein and Agentforce to save time and surface smarter insights, with guardrails to keep things safe.",
+    description: "Add practical AI tools that save time and surface useful insights—with built-in guardrails so you stay in control.",
   },
   {
     icon: Zap,
     title: "Lead Intake & Speed-to-Lead Automation",
-    description: "Connect your lead sources to Salesforce and automatically assign, route, and notify—so no lead falls through the cracks.",
+    description: "Connect your lead sources to Salesforce and route them automatically—so your team follows up faster and nothing slips through.",
   },
   {
     icon: Users,
     title: "Customer Data Unification & Activation",
-    description: "Bring together data from marketing, sales, and support into one clear view you can act on.",
+    description: "Bring together data from sales, marketing, and support into one clear view you can actually use.",
   },
   {
     icon: BarChart3,
     title: "Marketing Performance & ROI Analytics",
-    description: "Build dashboards that connect marketing spend to pipeline and revenue, so you know what's working.",
+    description: "Build dashboards that show which campaigns drive revenue—so you know where to invest.",
   },
 ];
 

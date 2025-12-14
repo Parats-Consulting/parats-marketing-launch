@@ -10,25 +10,35 @@ const About = () => {
 
         <div className="max-w-3xl mx-auto space-y-8 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           <div className="p-8 rounded-2xl bg-card shadow-card">
-            <div className="flex flex-col md:flex-row gap-8 items-start">
-              <div className="flex-1 space-y-6">
-                <div>
-                  <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-                    Ed & Ashley Parats
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    We're a husband-and-wife team with deep experience in Salesforce, RevOps, and marketing technology. We've helped companies of all sizes—from scrappy startups to enterprise organizations—build systems that actually work. Now we're focused on helping small to midsize businesses get the same quality consulting without the big agency overhead.
-                  </p>
-                </div>
+            <div className="space-y-6">
+              <div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+                  Edward Perez
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Edward is a University of Florida finance graduate who started his career in Lockheed Martin's leadership development program. He spent a decade working in Fortune 150 environments before serving in ministry—where he developed a people-first approach grounded in clarity and purpose. Today, he focuses on Salesforce and AI/Agentforce consulting, helping teams build systems that actually work.
+                </p>
+              </div>
 
-                <div className="pt-4 border-t border-border">
-                  <h4 className="font-display font-semibold text-foreground mb-2">
-                    Extended team
-                  </h4>
-                  <p className="text-muted-foreground leading-relaxed text-sm">
-                    For larger or more specialized projects, we collaborate with a trusted network of senior consultants who share our standards for quality and clear communication. You always know who's on your project and why.
-                  </p>
-                </div>
+              <div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+                  Ashley Perez
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Ashley began her career in turnaround consulting, helping small companies transform their operations. She was later recruited by FedEx, and eventually launched ministry-focused work in teaching and mentoring. Her strengths are process improvement, attention to quality, and making systems actually work for the people who use them.
+                </p>
+              </div>
+
+              <div className="pt-4 border-t border-border">
+                <p className="text-foreground leading-relaxed font-medium">
+                  Parats Consulting combines strategy and hands-on implementation to help growing teams build systems that actually work.
+                </p>
+              </div>
+
+              <div className="pt-4 border-t border-border">
+                <p className="text-muted-foreground leading-relaxed text-sm">
+                  You'll work with a consistent team that communicates clearly, documents decisions, and delivers clean, maintainable solutions.
+                </p>
               </div>
             </div>
           </div>
