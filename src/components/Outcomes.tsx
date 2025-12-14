@@ -3,23 +3,23 @@ import { Check, Zap, Users, BarChart3, Clock, Shield } from "lucide-react";
 const outcomes = [
   {
     icon: Zap,
-    text: "Faster lead response & higher conversion rates",
+    text: "Respond to leads faster and close more deals",
   },
   {
     icon: Users,
-    text: "Unified customer view across sales, marketing, and support",
+    text: "See your customers clearly—sales, marketing, and support in one place",
   },
   {
     icon: BarChart3,
-    text: "Clearer ROI reporting that ties marketing to revenue",
+    text: "Know which marketing efforts actually drive revenue",
   },
   {
     icon: Clock,
-    text: "Reduce manual work with smart automation",
+    text: "Cut the busywork with automation that runs in the background",
   },
   {
     icon: Shield,
-    text: "Safe, practical AI with built-in guardrails",
+    text: "Use AI that's practical, safe, and designed with guardrails",
   },
 ];
 

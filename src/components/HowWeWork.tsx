@@ -2,27 +2,27 @@ const steps = [
   {
     step: "01",
     title: "Align",
-    description: "We start by understanding your goals, current tools, and team workflows.",
+    description: "We learn how your team works, what tools you use, and where things are breaking down.",
   },
   {
     step: "02",
     title: "Build",
-    description: "We configure Salesforce to match your process—not the other way around.",
+    description: "We configure Salesforce to fit your process—not force you into a template.",
   },
   {
     step: "03",
     title: "Connect",
-    description: "We integrate your lead sources, marketing tools, and data systems.",
+    description: "We integrate your lead sources, marketing tools, and other systems so data flows automatically.",
   },
   {
     step: "04",
     title: "Scale",
-    description: "We add automation and AI to help your team work faster without adding headcount.",
+    description: "We add automation and AI so your team can handle more without adding headcount.",
   },
   {
     step: "05",
     title: "Optimize",
-    description: "We monitor, tweak, and improve as your business grows and evolves.",
+    description: "We refine and improve as your business grows and your needs change.",
   },
 ];
 

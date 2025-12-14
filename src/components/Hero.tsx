@@ -13,12 +13,12 @@ const Hero = () => {
       <div className="container-narrow section-padding text-center relative z-10">
         <div className="space-y-8 max-w-3xl mx-auto opacity-0 animate-fade-in">
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-tight">
-            Build a Salesforce that
-            <span className="text-gradient block mt-2">actually works for you</span>
+            Salesforce that works
+            <span className="text-gradient block mt-2">the way your team works</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            We help growing businesses set up Salesforce the right way—so your team spends less time on busywork and more time closing deals.
+            Faster follow-up, less manual work, clearer visibility into what's happening—plus practical AI with guardrails you can trust.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
