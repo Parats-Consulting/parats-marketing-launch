@@ -10,9 +10,6 @@ const Home = () => {
             <h1 className="font-serif text-display-xl md:text-[5.5rem] lg:text-[6.5rem] text-foreground">
               Parats
             </h1>
-            <p className="font-serif text-body-lg md:text-heading text-foreground/70 -mt-2">
-              Your Breakthrough
-            </p>
             <p className="font-serif text-heading md:text-display-sm text-foreground/80">
               Clarity in systems. Peace in execution.
             </p>
